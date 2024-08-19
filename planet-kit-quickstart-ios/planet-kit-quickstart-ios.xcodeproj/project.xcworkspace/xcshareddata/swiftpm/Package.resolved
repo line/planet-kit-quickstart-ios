@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "planet-kit-apple",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/line/planet-kit-apple",
+      "state" : {
+        "revision" : "cfb0bbe852630f96dd4e6822d316ba0c044241a0",
+        "version" : "5.4.5"
+      }
+    }
+  ],
+  "version" : 2
+}

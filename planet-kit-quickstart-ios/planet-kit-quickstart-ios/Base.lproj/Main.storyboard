@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="planet_kit_quickstart_ios" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NZ5-VD-1UE">
+                                <rect key="frame" x="20" y="120" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pmj-Lg-pds">
+                                <rect key="frame" x="20" y="222" width="30" height="30"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Join"/>
+                                <connections>
+                                    <action selector="joinConference:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nAX-n3-7dt"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="opB-NG-tiF">
+                                <rect key="frame" x="20" y="161" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bbw-U3-NEd">
+                                <rect key="frame" x="70" y="222" width="40" height="30"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Leave"/>
+                                <connections>
+                                    <action selector="leaveConference:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3fF-Bb-b9Z"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yUr-AC-yK2">
+                                <rect key="frame" x="82" y="72.666666666666671" width="291" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rSG-Gh-nI7">
+                                <rect key="frame" x="20" y="79" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="NZ5-VD-1UE" secondAttribute="trailing" symbolic="YES" id="06Y-aq-Fdr"/>
+                            <constraint firstItem="opB-NG-tiF" firstAttribute="leading" secondItem="NZ5-VD-1UE" secondAttribute="leading" id="3Be-sQ-h8c"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Bbw-U3-NEd" secondAttribute="trailing" symbolic="YES" id="6VC-mv-Jdw"/>
+                            <constraint firstItem="rSG-Gh-nI7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="PaV-T9-SFo"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="opB-NG-tiF" secondAttribute="trailing" symbolic="YES" id="TeL-Fh-p6U"/>
+                            <constraint firstItem="Bbw-U3-NEd" firstAttribute="centerY" secondItem="Pmj-Lg-pds" secondAttribute="centerY" id="bPB-WR-kAh"/>
+                            <constraint firstItem="yUr-AC-yK2" firstAttribute="leading" secondItem="rSG-Gh-nI7" secondAttribute="trailing" constant="20" id="bbc-h3-So3"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="lessThanOrEqual" secondItem="yUr-AC-yK2" secondAttribute="trailing" constant="20" id="bzj-CV-Xsb"/>
+                            <constraint firstItem="Pmj-Lg-pds" firstAttribute="leading" secondItem="opB-NG-tiF" secondAttribute="leading" id="dJj-is-cZ2"/>
+                            <constraint firstItem="NZ5-VD-1UE" firstAttribute="top" secondItem="rSG-Gh-nI7" secondAttribute="bottom" constant="20" id="fEF-JR-feu"/>
+                            <constraint firstItem="NZ5-VD-1UE" firstAttribute="leading" secondItem="rSG-Gh-nI7" secondAttribute="leading" id="hGB-us-hpr"/>
+                            <constraint firstItem="rSG-Gh-nI7" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="mpN-3c-KYM"/>
+                            <constraint firstItem="yUr-AC-yK2" firstAttribute="centerY" secondItem="rSG-Gh-nI7" secondAttribute="centerY" id="nk8-v4-WQh"/>
+                            <constraint firstItem="Pmj-Lg-pds" firstAttribute="top" secondItem="opB-NG-tiF" secondAttribute="bottom" constant="40" id="ufa-Ik-Cnm"/>
+                            <constraint firstItem="Bbw-U3-NEd" firstAttribute="leading" secondItem="Pmj-Lg-pds" secondAttribute="trailing" constant="20" id="urj-mC-vGM"/>
+                            <constraint firstItem="opB-NG-tiF" firstAttribute="top" secondItem="NZ5-VD-1UE" secondAttribute="bottom" constant="20" id="vep-V7-Y0a"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="conferenceStateLabel" destination="NZ5-VD-1UE" id="cpN-ka-tpf"/>
+                        <outlet property="participantCountLabel" destination="opB-NG-tiF" id="ZWf-Cc-CNb"/>
+                        <outlet property="roomIdLabel" destination="rSG-Gh-nI7" id="NzN-xE-RVg"/>
+                        <outlet property="roomIdTextField" destination="yUr-AC-yK2" id="wXV-Xz-Iu6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139" y="-2"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
