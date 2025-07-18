@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "CECB662A2B70DAB200B7F396"
-               BuildableName = "planet-kit-quickstart-ios.app"
-               BlueprintName = "planet-kit-quickstart-ios"
-               ReferencedContainer = "container:planet-kit-quickstart-ios.xcodeproj">
+               BuildableName = "planet-kit-quickstart-ios-group-audio-call.app"
+               BlueprintName = "planet-kit-quickstart-ios-group-audio-call"
+               ReferencedContainer = "container:planet-kit-quickstart-ios-group-audio-call.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -44,9 +44,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CECB662A2B70DAB200B7F396"
-            BuildableName = "planet-kit-quickstart-ios.app"
-            BlueprintName = "planet-kit-quickstart-ios"
-            ReferencedContainer = "container:planet-kit-quickstart-ios.xcodeproj">
+            BuildableName = "planet-kit-quickstart-ios-group-audio-call.app"
+            BlueprintName = "planet-kit-quickstart-ios-group-audio-call"
+            ReferencedContainer = "container:planet-kit-quickstart-ios-group-audio-call.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -61,9 +61,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CECB662A2B70DAB200B7F396"
-            BuildableName = "planet-kit-quickstart-ios.app"
-            BlueprintName = "planet-kit-quickstart-ios"
-            ReferencedContainer = "container:planet-kit-quickstart-ios.xcodeproj">
+            BuildableName = "planet-kit-quickstart-ios-group-audio-call.app"
+            BlueprintName = "planet-kit-quickstart-ios-group-audio-call"
+            ReferencedContainer = "container:planet-kit-quickstart-ios-group-audio-call.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

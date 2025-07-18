@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CECB662B2B70DAB200B7F396 /* planet-kit-quickstart-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "planet-kit-quickstart-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CECB662B2B70DAB200B7F396 /* planet-kit-quickstart-ios-group-audio-call.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "planet-kit-quickstart-ios-group-audio-call.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CECB662E2B70DAB200B7F396 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CECB66322B70DAB200B7F396 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CECB66352B70DAB200B7F396 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -40,7 +40,7 @@
 		CECB66222B70DAB200B7F396 = {
 			isa = PBXGroup;
 			children = (
-				CECB662D2B70DAB200B7F396 /* planet-kit-quickstart-ios */,
+				CECB662D2B70DAB200B7F396 /* planet-kit-quickstart-ios-group-audio-call */,
 				CECB662C2B70DAB200B7F396 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,12 +48,12 @@
 		CECB662C2B70DAB200B7F396 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CECB662B2B70DAB200B7F396 /* planet-kit-quickstart-ios.app */,
+				CECB662B2B70DAB200B7F396 /* planet-kit-quickstart-ios-group-audio-call.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CECB662D2B70DAB200B7F396 /* planet-kit-quickstart-ios */ = {
+		CECB662D2B70DAB200B7F396 /* planet-kit-quickstart-ios-group-audio-call */ = {
 			isa = PBXGroup;
 			children = (
 				CECB662E2B70DAB200B7F396 /* AppDelegate.swift */,
@@ -63,15 +63,15 @@
 				CECB66392B70DAB300B7F396 /* LaunchScreen.storyboard */,
 				CECB663C2B70DAB300B7F396 /* Info.plist */,
 			);
-			path = "planet-kit-quickstart-ios";
+			path = "planet-kit-quickstart-ios-group-audio-call";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CECB662A2B70DAB200B7F396 /* planet-kit-quickstart-ios */ = {
+		CECB662A2B70DAB200B7F396 /* planet-kit-quickstart-ios-group-audio-call */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CECB66552B70DAB300B7F396 /* Build configuration list for PBXNativeTarget "planet-kit-quickstart-ios" */;
+			buildConfigurationList = CECB66552B70DAB300B7F396 /* Build configuration list for PBXNativeTarget "planet-kit-quickstart-ios-group-audio-call" */;
 			buildPhases = (
 				CECB66272B70DAB200B7F396 /* Sources */,
 				CECB66282B70DAB200B7F396 /* Frameworks */,
@@ -81,12 +81,12 @@
 			);
 			dependencies = (
 			);
-			name = "planet-kit-quickstart-ios";
+			name = "planet-kit-quickstart-ios-group-audio-call";
 			packageProductDependencies = (
 				CE9B52F42B7B36D1005D05F3 /* PlanetKit */,
 			);
 			productName = "planetkit-quickstart-ios";
-			productReference = CECB662B2B70DAB200B7F396 /* planet-kit-quickstart-ios.app */;
+			productReference = CECB662B2B70DAB200B7F396 /* planet-kit-quickstart-ios-group-audio-call.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -104,7 +104,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CECB66262B70DAB200B7F396 /* Build configuration list for PBXProject "planet-kit-quickstart-ios" */;
+			buildConfigurationList = CECB66262B70DAB200B7F396 /* Build configuration list for PBXProject "planet-kit-quickstart-ios-group-audio-call" */;
 			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -120,7 +120,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CECB662A2B70DAB200B7F396 /* planet-kit-quickstart-ios */,
+				CECB662A2B70DAB200B7F396 /* planet-kit-quickstart-ios-group-audio-call */,
 			);
 		};
 /* End PBXProject section */
@@ -298,7 +298,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8G473GSRFY;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "planet-kit-quickstart-ios/Info.plist";
+				INFOPLIST_FILE = "planet-kit-quickstart-ios-group-audio-call/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -326,7 +326,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8G473GSRFY;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "planet-kit-quickstart-ios/Info.plist";
+				INFOPLIST_FILE = "planet-kit-quickstart-ios-group-audio-call/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -348,7 +348,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CECB66262B70DAB200B7F396 /* Build configuration list for PBXProject "planet-kit-quickstart-ios" */ = {
+		CECB66262B70DAB200B7F396 /* Build configuration list for PBXProject "planet-kit-quickstart-ios-group-audio-call" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CECB66532B70DAB300B7F396 /* Debug */,
@@ -357,7 +357,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CECB66552B70DAB300B7F396 /* Build configuration list for PBXNativeTarget "planet-kit-quickstart-ios" */ = {
+		CECB66552B70DAB300B7F396 /* Build configuration list for PBXNativeTarget "planet-kit-quickstart-ios-group-audio-call" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CECB66562B70DAB300B7F396 /* Debug */,
@@ -373,8 +373,8 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/line/planet-kit-apple";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.4.0;
+				kind = upToNextMinorVersion;
+				minimumVersion = 6.0.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
